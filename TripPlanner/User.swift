@@ -7,3 +7,12 @@
 //
 
 import Foundation
+struct User:Codable {
+    let email: String
+    let password: String
+}
+struct Trip:Codable {
+    let destination: String
+    let tripDates: Int
+    let waypoints: String
+}
